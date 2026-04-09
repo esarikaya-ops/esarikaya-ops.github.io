@@ -198,6 +198,80 @@ footer {
     border-top: 1px solid rgba(0, 188, 212, 0.1);
 }
 
+.legal-page {
+    padding: 3rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.legal-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.legal-page h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.legal-page h3 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary);
+}
+
+.legal-page p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.legal-page ul {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.legal-page li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.legal-page a {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary);
+    transition: all 0.3s;
+}
+
+.legal-page a:hover {
+    color: var(--secondary);
+    border-bottom-color: var(--secondary);
+}
+
+.update-date {
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.social-links {
+    background: var(--dark);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 188, 212, 0.2);
+}
+
+.faq {
+    background: var(--dark);
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 188, 212, 0.2);
+    margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
