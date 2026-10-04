@@ -24,7 +24,7 @@
             <div class="container">
                 <h1>Gizlilik Politikası</h1>
                 <p class="hero-subtitle">Gizliliğiniz bizim için önemlidir</p>
-                <p class="update-date">Yürürlük Tarihi: 9 Nisan 2026 | Son Güncelleme: 9 Nisan 2026</p>
+                <p class="update-date">Yürürlük Tarihi: 9 Nisan 2026 | Son Güncelleme: 4 Ekim 2026</p>
             </div>
         </section>
 
@@ -89,11 +89,29 @@
                                 <li>Kamera özellikleri</li>
                             </ul>
                         </div>
+                        <div class="info-card">
+                            <h4>📶 SIM ve Şebeke</h4>
+                            <ul>
+                                <li>SIM kart takılı mı / kilitli mi durumu</li>
+                                <li>Operatör adı</li>
+                                <li>Bağlantı türü ve ağ kalitesi ölçümleri</li>
+                            </ul>
+                        </div>
+                        <div class="info-card">
+                            <h4>🛡️ Cihaz Kimliği ve Orijinallik</h4>
+                            <ul>
+                                <li>Marka, model, Android sürümü</li>
+                                <li>Önyükleyici (bootloader) kilit durumu</li>
+                                <li>Root / özel yazılım / emülatör tespiti</li>
+                                <li>Firmware satış bölgesi kodu</li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="highlight-box">
                         <h4>⚠️ ÖNEMLİ</h4>
-                        <p>PhoneMD <strong>hiçbir kişisel veri toplamaz</strong>. Adınız, e-posta adresiniz, telefon numaranız, konumunuz veya kişisel dosyalarınıza erişim sağlanmaz.</p>
+                        <p>PhoneMD <strong>hiçbir kişisel veri toplamaz</strong>. Adınız, e-posta adresiniz, telefon numaranız, rehberiniz veya kişisel dosyalarınıza erişim sağlanmaz.</p>
+                        <p>GPS testi sırasında konum bilgisi <strong>yalnızca o an</strong> hassasiyet ölçümü için okunur; <strong>kaydedilmez, saklanmaz ve hiçbir yere gönderilmez</strong>. Aynı şekilde mikrofon testinde ses kaydı tutulmaz, kamera testinde fotoğraf saklanmaz.</p>
                     </div>
 
                     <h3>1.2. Kullanım Verileri</h3>
@@ -189,8 +207,8 @@
                         <div class="permission-card">
                             <span class="perm-icon">📶</span>
                             <h4>Bluetooth</h4>
-                            <p><strong>Kullanım:</strong> Bluetooth bağlantı testi</p>
-                            <p><strong>Detay:</strong> Cihaz taraması yapılır, bağlantı kurulmaz</p>
+                            <p><strong>Kullanım:</strong> Bluetooth donanım durumu testi</p>
+                            <p><strong>Detay:</strong> Adaptör durumu okunur; cihaz taraması yapılmaz, bağlantı kurulmaz</p>
                         </div>
                         <div class="permission-card">
                             <span class="perm-icon">🔔</span>
@@ -199,12 +217,37 @@
                             <p><strong>Detay:</strong> Pazarlama bildirimi gönderilmez</p>
                         </div>
                         <div class="permission-card">
-                            <span class="perm-icon">💾</span>
-                            <h4>Depolama</h4>
-                            <p><strong>Kullanım:</strong> PDF rapor kaydetme</p>
-                            <p><strong>Detay:</strong> Sadece raporlar kaydedilir, diğer dosyalara erişilmez</p>
+                            <span class="perm-icon">🔒</span>
+                            <h4>Biyometrik Donanım</h4>
+                            <p><strong>Kullanım:</strong> Parmak izi / yüz tanıma donanımının çalıştığını doğrulama</p>
+                            <p><strong>Detay:</strong> Biyometrik veriniz <strong>okunmaz, kaydedilmez ve uygulamaya aktarılmaz</strong>. Yalnızca Android'in verdiği "doğrulandı" sonucu alınır</p>
+                        </div>
+                        <div class="permission-card">
+                            <span class="perm-icon">📡</span>
+                            <h4>NFC</h4>
+                            <p><strong>Kullanım:</strong> NFC donanımının varlığı ve durumu testi</p>
+                            <p><strong>Detay:</strong> NFC ile veri okunmaz veya yazılmaz</p>
+                        </div>
+                        <div class="permission-card">
+                            <span class="perm-icon">📳</span>
+                            <h4>Titreşim</h4>
+                            <p><strong>Kullanım:</strong> Titreşim motoru testi</p>
+                            <p><strong>Detay:</strong> Yalnızca test sırasında kısa süreli çalıştırılır</p>
+                        </div>
+                        <div class="permission-card">
+                            <span class="perm-icon">🧭</span>
+                            <h4>Yüksek Hassasiyetli Sensörler</h4>
+                            <p><strong>Kullanım:</strong> İvmeölçer, jiroskop ve manyetometre ölçümleri</p>
+                            <p><strong>Detay:</strong> Ölçümler yalnızca test süresince yapılır ve cihazda kalır</p>
+                        </div>
+                        <div class="permission-card">
+                            <span class="perm-icon">🔄</span>
+                            <h4>Ön Plan Servisi</h4>
+                            <p><strong>Kullanım:</strong> İsteğe bağlı gerçek zamanlı izleme (CPU, RAM, batarya, sıcaklık)</p>
+                            <p><strong>Detay:</strong> Yalnızca siz Ayarlar'dan açtığınızda çalışır, istediğiniz zaman kapatılır</p>
                         </div>
                     </div>
+                    <p class="note"><strong>Not:</strong> PDF raporlarını kaydetmek için <strong>depolama izni istenmez</strong>. Kaydetme, Android'in dosya seçici (Storage Access Framework) ekranı üzerinden yapılır; yalnızca sizin seçtiğiniz konuma yazılır.</p>
                 </div>
 
                 <div class="legal-section" id="section-5">
@@ -224,16 +267,17 @@
                     <ul>
                         <li>Sadece anonim hata raporları toplanır</li>
                         <li>Kişisel bilgi içermez</li>
-                        <li>İsterseniz Settings > Analytics kısmından devre dışı bırakabilirsiniz</li>
+                        <li>Ayarlar bölümündeki analitik iznini kapatarak veri gönderimini durdurabilirsiniz</li>
                         <li>Detaylı bilgi: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Gizlilik</a></li>
                     </ul>
 
                     <h3>5.3. Firebase Analytics</h3>
                     <p>Kullanım istatistikleri için Firebase Analytics entegre edilmiştir:</p>
                     <ul>
+                        <li><strong>Varsayılan olarak KAPALIDIR.</strong> Yalnızca siz Ayarlar'dan açık izin verirseniz çalışır (opt-in)</li>
                         <li>Hangi özelliklerin kullanıldığını anlamamıza yardımcı olur</li>
                         <li>Kişisel tanımlayıcı bilgi içermez</li>
-                        <li>İsteğe bağlı olarak kapatılabilir</li>
+                        <li>İstediğiniz zaman Ayarlar'dan tekrar kapatabilirsiniz</li>
                     </ul>
                 </div>
 
@@ -307,14 +351,14 @@
                         <p>Genellikle 48 saat içinde yanıt vermeye çalışıyoruz.</p>
 
                         <h4>🌐 Web</h4>
-                        <p><a href="https://esarikaya-ops.github.io">esarikaya-ops.github.io</a></p>
+                        <p><a href="https://phonemd.net">phonemd.net</a></p>
                     </div>
                 </div>
 
                 <div class="legal-footer-box">
-                    <p><strong>Son Güncelleme:</strong> 9 Nisan 2026</p>
+                    <p><strong>Son Güncelleme:</strong> 4 Ekim 2026</p>
                     <p><strong>Yürürlük Tarihi:</strong> 9 Nisan 2026</p>
-                    <p><strong>Versiyon:</strong> 1.0</p>
+                    <p><strong>Versiyon:</strong> 1.1</p>
                 </div>
             </div>
         </section>
