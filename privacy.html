@@ -24,7 +24,7 @@
             <div class="container">
                 <h1>Gizlilik Politikası</h1>
                 <p class="hero-subtitle">Gizliliğiniz bizim için önemlidir</p>
-                <p class="update-date">Yürürlük Tarihi: 9 Nisan 2026 | Son Güncelleme: 4 Ekim 2026</p>
+                <p class="update-date">Yürürlük Tarihi: 9 Nisan 2026 | Son Güncelleme: 22 Ekim 2026</p>
             </div>
         </section>
 
@@ -165,20 +165,16 @@
                     <h3>3.1. Yerel Depolama</h3>
                     <p>Tüm test sonuçları ve ayarlar <strong>yalnızca cihazınızda</strong> saklanır:</p>
                     <ul>
-                        <li>Veriler şifreli Android DataStore kullanılarak korunur</li>
+                        <li>Veriler, yalnızca PhoneMD'nin erişebildiği uygulamaya özel depolama alanında (Android DataStore) saklanır; diğer uygulamalar bu verilere erişemez</li>
                         <li>Hiçbir veri dış sunuculara gönderilmez</li>
                         <li>Uygulamayı sildiğinizde tüm veriler otomatik olarak silinir</li>
                         <li>Uygulama içinden istediğiniz zaman geçmiş verilerinizi temizleyebilirsiniz</li>
                     </ul>
 
                     <h3>3.2. Veri Paylaşımı</h3>
-                    <p>PhoneMD, toplanan verileri <strong>asla</strong>:</p>
-                    <ul>
-                        <li>Üçüncü taraflara satmaz</li>
-                        <li>Reklam şirketleriyle paylaşmaz (AdMob kendi gizlilik politikasına tabidir)</li>
-                        <li>Pazarlama amaçlı kullanmaz</li>
-                        <li>Harici veritabanlarında saklamaz</li>
-                    </ul>
+                    <p>Kişisel verileriniz üçüncü taraflara <strong>satılmaz</strong> ve pazarlama amaçlı kullanılmaz. Test sonuçlarınız, donanım ölçümleriniz ve geçmiş kayıtlarınız reklam şirketleriyle <strong>hiçbir şekilde paylaşılmaz</strong> ve harici veritabanlarında saklanmaz.</p>
+                    <p>Uygulama ücretsiz kalabilmek için Google AdMob reklamları gösterir. Reklamların sunulabilmesi için Google, reklam isteğine ilişkin sınırlı teknik verileri (IP adresinden türetilen yaklaşık konum, cihaz ve reklam isteği bilgileri) işler.</p>
+                    <p>PhoneMD <strong>çocuklara yönelik</strong> bir uygulama olarak yapılandırıldığından reklamlar <strong>kişiselleştirilmez</strong> ve cihazınızın reklam kimliği reklam kişiselleştirme amacıyla kullanılmaz.</p>
                 </div>
 
                 <div class="legal-section" id="section-4">
@@ -256,28 +252,26 @@
                     <h3>5.1. Google AdMob</h3>
                     <p>Uygulama, ücretsiz kalabilmek için Google AdMob reklamları içerir:</p>
                     <ul>
-                        <li>AdMob, reklam gösterimi için kendi tanımlama bilgilerini kullanır</li>
-                        <li>Kişiselleştirilmiş reklamlar için GDPR uyumlu izin alınır</li>
-                        <li>Çocuklara yönelik içerikler için COPPA uyumlu ayarlar aktiftir</li>
+                        <li>Reklamlar <strong>kişiselleştirilmez</strong>; ilgi alanına dayalı hedefleme ve yeniden pazarlama kullanılmaz</li>
+                        <li>Reklamlar yalnızca çocuklara uygun (G) içerik derecesiyle sunulur</li>
+                        <li>Tüm reklam istekleri COPPA kapsamında "çocuklara yönelik" olarak işaretlenir</li>
                         <li>Detaylı bilgi: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a></li>
                     </ul>
 
                     <h3>5.2. Firebase Crashlytics</h3>
                     <p>Uygulama istikrarını iyileştirmek için Firebase Crashlytics kullanılır:</p>
                     <ul>
-                        <li>Sadece anonim hata raporları toplanır</li>
-                        <li>Kişisel bilgi içermez</li>
-                        <li>Ayarlar bölümündeki analitik iznini kapatarak veri gönderimini durdurabilirsiniz</li>
+                        <li>Uygulama çöktüğünde teknik hata raporu (hata kaydı, cihaz modeli, Android sürümü, uygulama sürümü) gönderilir</li>
+                        <li>Adınız, e-postanız veya test sonuçlarınız gibi kişisel bilgiler içermez</li>
+                        <li>Uygulamanın kararlılığı için yayındaki sürümde her zaman etkindir</li>
                         <li>Detaylı bilgi: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Gizlilik</a></li>
                     </ul>
 
                     <h3>5.3. Firebase Analytics</h3>
-                    <p>Kullanım istatistikleri için Firebase Analytics entegre edilmiştir:</p>
+                    <p>Uygulamada Firebase Analytics kütüphanesi bulunur, ancak <strong>veri toplama kapalıdır</strong>:</p>
                     <ul>
-                        <li><strong>Varsayılan olarak KAPALIDIR.</strong> Yalnızca siz Ayarlar'dan açık izin verirseniz çalışır (opt-in)</li>
-                        <li>Hangi özelliklerin kullanıldığını anlamamıza yardımcı olur</li>
-                        <li>Kişisel tanımlayıcı bilgi içermez</li>
-                        <li>İstediğiniz zaman Ayarlar'dan tekrar kapatabilirsiniz</li>
+                        <li>Kullanım istatistiği (hangi ekranın açıldığı, hangi testin çalıştırıldığı vb.) toplanmaz</li>
+                        <li>İleride isteğe bağlı bir kullanım istatistiği seçeneği eklenirse, yalnızca sizin açık onayınızla çalışacak ve bu politika önceden güncellenecektir</li>
                     </ul>
                 </div>
 
@@ -288,7 +282,7 @@
                         <li>13 yaş altı kullanıcılardan <strong>bilerek</strong> kişisel veri toplanmaz</li>
                         <li>COPPA (Children's Online Privacy Protection Act) gerekliliklerine uyulur</li>
                         <li>Reklam içeriği, çocuklara uygun şekilde filtrelenir (MAX_AD_CONTENT_RATING_G)</li>
-                        <li>Ebeveyn kontrolü mekanizmaları mevcuttur</li>
+                        <li>Uygulama hesap, kayıt veya kişisel bilgi girişi gerektirmez; tüm testler cihazda yerel olarak çalışır</li>
                     </ul>
                     <p>Eğer 13 yaşından küçük bir çocuğun kişisel verilerinin yanlışlıkla toplandığını düşünüyorsanız, lütfen bizimle iletişime geçin.</p>
                 </div>
@@ -331,7 +325,7 @@
                     <h2><span class="section-number">8.</span> Politika Değişiklikleri</h2>
                     <p>Bu Gizlilik Politikası zaman zaman güncellenebilir:</p>
                     <ul>
-                        <li>Önemli değişiklikler uygulama içi bildirimle duyurulur</li>
+                        <li>Önemli değişiklikler bu sayfada yayımlanır ve sayfa başındaki "Son Güncelleme" tarihi yenilenir</li>
                         <li>Son güncelleme tarihi sayfanın üstünde belirtilir</li>
                         <li>Eski sürümler arşivlenir ve talep üzerine paylaşılır</li>
                         <li>Güncelleme sonrası uygulamayı kullanmaya devam etmek, yeni politikayı kabul ettiğiniz anlamına gelir</li>
@@ -356,9 +350,9 @@
                 </div>
 
                 <div class="legal-footer-box">
-                    <p><strong>Son Güncelleme:</strong> 4 Ekim 2026</p>
+                    <p><strong>Son Güncelleme:</strong> 22 Ekim 2026</p>
                     <p><strong>Yürürlük Tarihi:</strong> 9 Nisan 2026</p>
-                    <p><strong>Versiyon:</strong> 1.1</p>
+                    <p><strong>Versiyon:</strong> 1.2</p>
                 </div>
             </div>
         </section>
