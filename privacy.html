@@ -24,7 +24,7 @@
             <div class="container">
                 <h1>Gizlilik Politikası</h1>
                 <p class="hero-subtitle">Gizliliğiniz bizim için önemlidir</p>
-                <p class="update-date">Yürürlük Tarihi: 9 Nisan 2026 | Son Güncelleme: 22 Ekim 2026</p>
+                <p class="update-date">Yürürlük Tarihi: 9 Nisan 2026 | Son Güncelleme: 23 Ekim 2026</p>
             </div>
         </section>
 
@@ -110,16 +110,15 @@
 
                     <div class="highlight-box">
                         <h4>⚠️ ÖNEMLİ</h4>
-                        <p>PhoneMD <strong>hiçbir kişisel veri toplamaz</strong>. Adınız, e-posta adresiniz, telefon numaranız, rehberiniz veya kişisel dosyalarınıza erişim sağlanmaz.</p>
+                        <p>PhoneMD sizden <strong>hesap, ad, e-posta adresi veya telefon numarası istemez</strong>; rehberinize ve kişisel dosyalarınıza erişmez. Reklam ve hata raporu hizmetlerinin işlediği sınırlı teknik veriler Bölüm 3.2 ve 5'te açıklanmıştır.</p>
                         <p>GPS testi sırasında konum bilgisi <strong>yalnızca o an</strong> hassasiyet ölçümü için okunur; <strong>kaydedilmez, saklanmaz ve hiçbir yere gönderilmez</strong>. Aynı şekilde mikrofon testinde ses kaydı tutulmaz, kamera testinde fotoğraf saklanmaz.</p>
                     </div>
 
                     <h3>1.2. Kullanım Verileri</h3>
-                    <p>Firebase Crashlytics aracılığıyla sadece teknik hata raporları toplanır:</p>
+                    <p>Test sonuçlarınız, ölçümleriniz ve geçmiş kayıtlarınız hiçbir sunucuya gönderilmez. Cihazdan çıkan teknik veriler yalnızca şunlardır:</p>
                     <ul>
-                        <li>Uygulama çökme raporları (crash logs)</li>
-                        <li>Hata ayıklama bilgileri</li>
-                        <li>Cihaz modeli ve Android versiyonu</li>
+                        <li>Firebase Crashlytics üzerinden uygulama çökme raporları (hata kaydı, cihaz modeli, Android ve uygulama sürümü)</li>
+                        <li>Google AdMob'un reklam gösterebilmek için işlediği reklam isteği ve reklam etkileşimi verileri (ayrıntı: Bölüm 3.2 ve 5.1)</li>
                     </ul>
                 </div>
 
@@ -132,7 +131,7 @@
                             <span class="purpose-icon">📊</span>
                             <div>
                                 <h4>Donanım Analizi</h4>
-                                <p>Cihazınızın performansını değerlendirmek ve hasar derecesini hesaplamak</p>
+                                <p>Cihazınızın donanımını test etmek ve her bileşen için neyin ölçüldüğünü göstermek</p>
                             </div>
                         </div>
                         <div class="purpose-item">
@@ -166,14 +165,14 @@
                     <p>Tüm test sonuçları ve ayarlar <strong>yalnızca cihazınızda</strong> saklanır:</p>
                     <ul>
                         <li>Veriler, yalnızca PhoneMD'nin erişebildiği uygulamaya özel depolama alanında (Android DataStore) saklanır; diğer uygulamalar bu verilere erişemez</li>
-                        <li>Hiçbir veri dış sunuculara gönderilmez</li>
+                        <li>Test sonuçları, ölçümler ve geçmiş kayıtları hiçbir sunucuya gönderilmez (çökme raporları ve reklam verileri için bkz. Bölüm 5)</li>
                         <li>Uygulamayı sildiğinizde tüm veriler otomatik olarak silinir</li>
                         <li>Uygulama içinden istediğiniz zaman geçmiş verilerinizi temizleyebilirsiniz</li>
                     </ul>
 
                     <h3>3.2. Veri Paylaşımı</h3>
                     <p>Kişisel verileriniz üçüncü taraflara <strong>satılmaz</strong> ve pazarlama amaçlı kullanılmaz. Test sonuçlarınız, donanım ölçümleriniz ve geçmiş kayıtlarınız reklam şirketleriyle <strong>hiçbir şekilde paylaşılmaz</strong> ve harici veritabanlarında saklanmaz.</p>
-                    <p>Uygulama ücretsiz kalabilmek için Google AdMob reklamları gösterir. Reklamların sunulabilmesi için Google, reklam isteğine ilişkin sınırlı teknik verileri (IP adresinden türetilen yaklaşık konum, cihaz ve reklam isteği bilgileri) işler.</p>
+                    <p>Uygulama ücretsiz kalabilmek için Google AdMob reklamları gösterir. Reklamların sunulabilmesi için Google, reklam isteğine ilişkin sınırlı teknik verileri (IP adresinden türetilen yaklaşık konum, cihaz bilgileri, reklam isteği ve reklam etkileşimi bilgileri) işler.</p>
                     <p>PhoneMD <strong>çocuklara yönelik</strong> bir uygulama olarak yapılandırıldığından reklamlar <strong>kişiselleştirilmez</strong> ve cihazınızın reklam kimliği reklam kişiselleştirme amacıyla kullanılmaz.</p>
                 </div>
 
@@ -209,8 +208,8 @@
                         <div class="permission-card">
                             <span class="perm-icon">🔔</span>
                             <h4>Bildirimler</h4>
-                            <p><strong>Kullanım:</strong> Test tamamlama ve kritik durum bildirimleri</p>
-                            <p><strong>Detay:</strong> Pazarlama bildirimi gönderilmez</p>
+                            <p><strong>Kullanım:</strong> İsteğe bağlı gerçek zamanlı izleme açıkken gösterilen kalıcı durum bildirimi (CPU, RAM, batarya)</p>
+                            <p><strong>Detay:</strong> Test sonucu, uyarı veya pazarlama bildirimi gönderilmez</p>
                         </div>
                         <div class="permission-card">
                             <span class="perm-icon">🔒</span>
@@ -350,9 +349,9 @@
                 </div>
 
                 <div class="legal-footer-box">
-                    <p><strong>Son Güncelleme:</strong> 22 Ekim 2026</p>
+                    <p><strong>Son Güncelleme:</strong> 23 Ekim 2026</p>
                     <p><strong>Yürürlük Tarihi:</strong> 9 Nisan 2026</p>
-                    <p><strong>Versiyon:</strong> 1.2</p>
+                    <p><strong>Versiyon:</strong> 1.3</p>
                 </div>
             </div>
         </section>
